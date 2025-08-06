@@ -327,7 +327,7 @@ _实时预览翻译结果，支持在线编辑和格式转换_
 
 ### 📤 导出功能
 
-![导出功能](./docs/images/demo2.png)
-(./docs/images/demo3.png)
+![导出Android(XML格式)](./docs/images/demo2.png)
+![导出Json格式](./docs/images/demo3.png)
 
 _支持 JSON、Android XML、iOS .strings 等多种导出格式_
