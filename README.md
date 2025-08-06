@@ -110,6 +110,8 @@ translation-app/
 
 ### 1. 文件翻译
 
+![文件翻译流程](./docs/images/file-translation-flow.png)
+
 1. 选择 "文件上传" 模式
 2. 上传包含英文文本的 Excel 文件
 3. 选择目标语言
@@ -118,6 +120,8 @@ translation-app/
 6. 下载翻译结果
 
 ### 2. 文本翻译
+
+![文本翻译流程](./docs/images/text-translation-flow.png)
 
 1. 选择 "文本输入" 模式
 2. 输入要翻译的英文文本
@@ -291,12 +295,39 @@ A: 是的，各个翻译 API 都有使用限制和计费政策，请查看相应
 
 ## 📞 支持
 
-如果遇到问题或有建议，请：
-
-1. 查看 [Issues](../../issues) 页面
-2. 创建新的 Issue
-3. 联系开发团队
-
 ---
 
 **享受多语言翻译的便利！** 🌍✨
+
+## 📸 应用截图
+
+### 🖥️ 主界面
+
+![主界面](./docs/images/demo1.png)
+
+_现代化的深色主题界面，支持文件上传和文本输入两种模式_
+
+### 📁 文件上传模式
+
+![文件上传](./docs/images/demo4.png)
+
+_支持 Excel 文件批量上传，自动识别 key 和 en 列_
+
+### 🌍 语言选择
+
+![语言选择](./docs/images/demo5.png)
+
+_支持 40+种语言，包括常用语言和更多语言选项_
+
+### 📊 翻译预览
+
+![翻译预览](./docs/images/demo1.png)
+
+_实时预览翻译结果，支持在线编辑和格式转换_
+
+### 📤 导出功能
+
+![导出功能](./docs/images/demo2.png)
+(./docs/images/demo3.png)
+
+_支持 JSON、Android XML、iOS .strings 等多种导出格式_

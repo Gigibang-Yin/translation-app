@@ -144,7 +144,7 @@ async function startTranslation() {
       formData.append('api', selectedApi.value);
       formData.append('languages', JSON.stringify(targetLanguages.value));
       
-      response = await axios.post('http://10.1.190.30:3000/api/translate', formData, {
+      response = await axios.post('http://localhost:3000/api/translate', formData, {
         headers: { 'Content-Type': 'multipart/form-data' },
       });
 
@@ -160,7 +160,7 @@ async function startTranslation() {
           en: line
       }));
       
-      response = await axios.post('http://10.1.190.30:3000/api/translate-text', {
+      response = await axios.post('http://localhost:3000/api/translate-text', {
         sourceData: sourceData,
         api: selectedApi.value,
         languages: JSON.stringify(targetLanguages.value)
